@@ -1,5 +1,17 @@
 # AI Risk Assistant
 
-An AI-assisted prototype for extracting and explaining risk signals from public financial documents and cases.
+A beginner portfolio project for extracting and explaining risk signals from financial text.
 
-Built by Han, with Python and finance-domain research.
+## Current Prototype
+
+This rule-based prototype:
+
+- Reads a sample financial risk case from a text file.
+- Identifies predefined risk keywords.
+- Provides a short explanation for each detected signal.
+- Assigns a demo risk level based on the number of signals found.
+
+## How to Run
+
+```powershell
+py test.py
