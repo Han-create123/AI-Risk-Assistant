@@ -18,7 +18,6 @@ for keyword, explanation in risk_explanations.items():
         print(f"- {keyword}: {explanation}")
 
 signal_count = len(found_signals)
-
 if signal_count >= 3:
     risk_level = "High"
 elif signal_count >= 1:

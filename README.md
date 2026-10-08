@@ -14,4 +14,4 @@ This rule-based prototype:
 ## How to Run
 
 ```powershell
-py test.py
+py risk_assistant.py
